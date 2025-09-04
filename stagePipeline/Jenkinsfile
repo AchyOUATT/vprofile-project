@@ -15,7 +15,7 @@ pipeline {
 		NEXUSPORT = '8081'
 		NEXUS_GRP_REPO = 'vpro-maven-group'
         NEXUS_LOGIN = 'nexuslogin'
-        SONARSERVER = 'sonarserver'
+        SONARSERVER = 'sonar server'
         SONARSCANNER = 'sonarscanner'
         registryCredential= 'ecr:us-east-1:awscreds'
         appRegistry = '831926582812.dkr.ecr.us-east-1.amazonaws.com/vprofileappimg'
